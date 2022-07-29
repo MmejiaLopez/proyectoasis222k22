@@ -42,32 +42,17 @@ namespace LaboratorioClinico
 
             resultado = con.buscar(sql, columna);
 
-            if(resultado[2].Equals(usuario) && resultado[3].Equals(contraseña)&& resultado[1].Equals(cargo))
-            {
-                
-               // Menu m = new Menu();
-               // m.Show();
+            
+                Cita m = new Cita();
+                m.Show();
                 this.Hide();
                 MessageBox.Show("Bienvenido " + usuario);
-            }
-            else 
-            { MessageBox.Show("Datos Incorrectos"); }
+            
         }
 
         private void Login_Load(object sender, EventArgs e)
         {
-           
-        }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-            txtcontraseña.UseSystemPasswordChar = !checkver.Checked;
-        }
-
-        private void btncrear_Click(object sender, EventArgs e)
-        {
-            
-        
         }
     }
 }

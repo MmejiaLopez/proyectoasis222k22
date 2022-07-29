@@ -195,5 +195,10 @@ namespace LaboratorioClinico
 
             con.IDU(sql2);
         }
+
+        private void Paciente_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
