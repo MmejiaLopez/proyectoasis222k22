@@ -6,9 +6,16 @@
       "version": "3.1.0"
     },
     "additionalProbingPaths": [
+<<<<<<< HEAD
       "C:\\Users\\Mayén Ramírez\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\Mayén Ramírez\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+=======
+      "C:\\Users\\luist\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\luist\\.nuget\\packages",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+      "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
+>>>>>>> aa1ade0819640534702bc59d33924101b39f825a
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true

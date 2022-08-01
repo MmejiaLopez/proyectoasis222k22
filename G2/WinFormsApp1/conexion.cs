@@ -17,10 +17,17 @@ namespace LaboratorioClinico
             try
             {
                 MySqlConnectionStringBuilder b = new MySqlConnectionStringBuilder();
+<<<<<<< HEAD
                 b.Server = "localhost";
                 b.UserID = "root";//cambiar el usuario
                 b.Password = "41922924";//cambiar contraseña
                 b.Database = "clinica";
+=======
+                b.Server = "b3jnhmjenwsvvibvoljt-mysql.services.clever-cloud.com";
+                b.UserID = "uoek6asd7jjostvb";//cambiar el usuario
+                b.Password = "FdMipYrOneL8uzBTDoVB";//cambiar contraseña
+                b.Database = "b3jnhmjenwsvvibvoljt";
+>>>>>>> aa1ade0819640534702bc59d33924101b39f825a
                 con = new MySqlConnection(b.ToString());
             }
             catch (MySqlException e)
@@ -38,7 +45,7 @@ namespace LaboratorioClinico
                 this.con.Open();
                 cmd.ExecuteNonQuery();
                 this.con.Close();
-                
+                MessageBox.Show("Realizado con exito");
             }
             catch (MySqlException e)
             {

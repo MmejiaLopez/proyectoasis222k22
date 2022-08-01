@@ -6,4 +6,8 @@ build_property.ApplicationHighDpiMode =
 build_property.ApplicationUseCompatibleTextRendering = 
 build_property.ApplicationVisualStyles = 
 build_property.RootNamespace = WinFormsApp1
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\Mayén Ramírez\Desktop\Proyecto grupal\proyectoasis222k22\G2\WinFormsApp1\
+=======
+build_property.ProjectDir = C:\Users\Kuht_saal\Desktop\Prototipo_Inicial_BD\proyectoasis222k22\G2\WinFormsApp1\
+>>>>>>> aa1ade0819640534702bc59d33924101b39f825a
