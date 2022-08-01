@@ -18,7 +18,7 @@ namespace LaboratorioClinico
             {
                 MySqlConnectionStringBuilder b = new MySqlConnectionStringBuilder();
                 b.Server = "localhost";
-                b.UserID = "admin";//cambiar el usuario
+                b.UserID = "admin";//cambiar el usuariohohola
                 b.Password = "admin12345";//cambiar contraseña
                 b.Database = "clinica";
                 con = new MySqlConnection(b.ToString());
