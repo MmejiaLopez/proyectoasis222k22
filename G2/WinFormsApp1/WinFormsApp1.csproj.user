@@ -4,9 +4,12 @@
     <Compile Update="Cita.cs">
       <SubType>Form</SubType>
     </Compile>
+<<<<<<< HEAD
+=======
     <Compile Update="CrearUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
+>>>>>>> aa1ade0819640534702bc59d33924101b39f825a
     <Compile Update="Factura.cs">
       <SubType>Form</SubType>
     </Compile>

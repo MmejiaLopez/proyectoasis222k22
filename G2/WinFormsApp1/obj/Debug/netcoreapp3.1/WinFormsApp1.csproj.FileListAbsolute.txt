@@ -63,6 +63,22 @@ C:\Users\josue\Desktop\UNIVERSIDAD\SEMESTRE_8\Analisis_de_Sistemas_II\1er_parcia
 C:\Users\josue\Desktop\UNIVERSIDAD\SEMESTRE_8\Analisis_de_Sistemas_II\1er_parcial\ASDFADFADFADFAFD\ASDFADFADFADFAFD\WinFormsApp1\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\josue\Desktop\UNIVERSIDAD\SEMESTRE_8\Analisis_de_Sistemas_II\1er_parcial\ASDFADFADFADFAFD\ASDFADFADFADFAFD\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.csproj.CopyComplete
 C:\Users\josue\Desktop\UNIVERSIDAD\SEMESTRE_8\Analisis_de_Sistemas_II\1er_parcial\ASDFADFADFADFAFD\ASDFADFADFADFAFD\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.genruntimeconfig.cache
+<<<<<<< HEAD
+C:\Users\Mayén Ramírez\Desktop\Proyecto grupal\proyectoasis222k22\G2\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Mayén Ramírez\Desktop\Proyecto grupal\proyectoasis222k22\G2\WinFormsApp1\obj\Debug\netcoreapp3.1\LaboratorioClinico.Cita.resources
+C:\Users\Mayén Ramírez\Desktop\Proyecto grupal\proyectoasis222k22\G2\WinFormsApp1\obj\Debug\netcoreapp3.1\LaboratorioClinico.Factura.resources
+C:\Users\Mayén Ramírez\Desktop\Proyecto grupal\proyectoasis222k22\G2\WinFormsApp1\obj\Debug\netcoreapp3.1\LaboratorioClinico.Login.resources
+C:\Users\Mayén Ramírez\Desktop\Proyecto grupal\proyectoasis222k22\G2\WinFormsApp1\obj\Debug\netcoreapp3.1\LaboratorioClinico.OpcionesAdministracion.resources
+C:\Users\Mayén Ramírez\Desktop\Proyecto grupal\proyectoasis222k22\G2\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Paciente - Copia.resources
+C:\Users\Mayén Ramírez\Desktop\Proyecto grupal\proyectoasis222k22\G2\WinFormsApp1\obj\Debug\netcoreapp3.1\LaboratorioClinico.Paciente.resources
+C:\Users\Mayén Ramírez\Desktop\Proyecto grupal\proyectoasis222k22\G2\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.csproj.GenerateResource.cache
+C:\Users\Mayén Ramírez\Desktop\Proyecto grupal\proyectoasis222k22\G2\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mayén Ramírez\Desktop\Proyecto grupal\proyectoasis222k22\G2\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.AssemblyInfoInputs.cache
+C:\Users\Mayén Ramírez\Desktop\Proyecto grupal\proyectoasis222k22\G2\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.AssemblyInfo.cs
+C:\Users\Mayén Ramírez\Desktop\Proyecto grupal\proyectoasis222k22\G2\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Mayén Ramírez\Desktop\Proyecto grupal\proyectoasis222k22\G2\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.dll
+C:\Users\Mayén Ramírez\Desktop\Proyecto grupal\proyectoasis222k22\G2\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.pdb
+=======
 C:\Users\luist\OneDrive\Universidad\8semestre\Analisis2\proyecto1\proyectoasis222k22\G2\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.csprojAssemblyReference.cache
 C:\Users\luist\OneDrive\Universidad\8semestre\Analisis2\proyecto1\proyectoasis222k22\G2\WinFormsApp1\obj\Debug\netcoreapp3.1\LaboratorioClinico.Cita.resources
 C:\Users\luist\OneDrive\Universidad\8semestre\Analisis2\proyecto1\proyectoasis222k22\G2\WinFormsApp1\obj\Debug\netcoreapp3.1\LaboratorioClinico.Factura.resources
@@ -95,3 +111,4 @@ C:\Users\luist\OneDrive\Universidad\8semestre\Analisis2\proyecto1\proyectoasis22
 C:\Users\luist\OneDrive\Universidad\8semestre\Analisis2\proyecto1\proyectoasis222k22\G2\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.csproj.CopyComplete
 C:\Users\luist\OneDrive\Universidad\8semestre\Analisis2\proyecto1\proyectoasis222k22\G2\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.genruntimeconfig.cache
 C:\Users\luist\OneDrive\Universidad\8semestre\Analisis2\proyecto1\proyectoasis222k22\G2\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.CrearUsuario.resources
+>>>>>>> aa1ade0819640534702bc59d33924101b39f825a
