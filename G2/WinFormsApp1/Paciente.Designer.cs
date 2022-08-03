@@ -474,6 +474,7 @@ namespace LaboratorioClinico
             this.Controls.Add(this.btnagregar);
             this.Name = "Paciente";
             this.Text = "Datos";
+            this.Load += new System.EventHandler(this.Paciente_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

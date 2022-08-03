@@ -19,7 +19,7 @@ namespace LaboratorioClinico
                 MySqlConnectionStringBuilder b = new MySqlConnectionStringBuilder();
                 b.Server = "localhost";
                 b.UserID = "admin";//cambiar el usuario
-                b.Password = "admin12345";//cambiar contraseña
+                b.Password = "admin";//cambiar contraseña
                 b.Database = "clinica";
                 con = new MySqlConnection(b.ToString());
             }

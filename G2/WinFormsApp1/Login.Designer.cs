@@ -29,6 +29,7 @@ namespace LaboratorioClinico
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.btningresar = new System.Windows.Forms.Button();
             this.txtcontraseña = new System.Windows.Forms.TextBox();
             this.txtusuario = new System.Windows.Forms.TextBox();
@@ -40,12 +41,13 @@ namespace LaboratorioClinico
             // 
             // btningresar
             // 
+            this.btningresar.BackColor = System.Drawing.SystemColors.Info;
             this.btningresar.Location = new System.Drawing.Point(164, 173);
             this.btningresar.Name = "btningresar";
             this.btningresar.Size = new System.Drawing.Size(125, 44);
             this.btningresar.TabIndex = 9;
             this.btningresar.Text = "INICIAR";
-            this.btningresar.UseVisualStyleBackColor = true;
+            this.btningresar.UseVisualStyleBackColor = false;
             this.btningresar.Click += new System.EventHandler(this.button1_Click);
             // 
             // txtcontraseña
@@ -67,6 +69,7 @@ namespace LaboratorioClinico
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Location = new System.Drawing.Point(48, 84);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(67, 15);
@@ -76,6 +79,7 @@ namespace LaboratorioClinico
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Location = new System.Drawing.Point(48, 40);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(47, 15);
@@ -85,29 +89,32 @@ namespace LaboratorioClinico
             // radioadministrador
             // 
             this.radioadministrador.AutoSize = true;
+            this.radioadministrador.BackColor = System.Drawing.Color.Transparent;
             this.radioadministrador.Location = new System.Drawing.Point(322, 36);
             this.radioadministrador.Name = "radioadministrador";
             this.radioadministrador.Size = new System.Drawing.Size(101, 19);
             this.radioadministrador.TabIndex = 10;
             this.radioadministrador.TabStop = true;
             this.radioadministrador.Text = "Administrador";
-            this.radioadministrador.UseVisualStyleBackColor = true;
+            this.radioadministrador.UseVisualStyleBackColor = false;
             // 
             // radiotrabajador
             // 
             this.radiotrabajador.AutoSize = true;
+            this.radiotrabajador.BackColor = System.Drawing.Color.Transparent;
             this.radiotrabajador.Location = new System.Drawing.Point(322, 61);
             this.radiotrabajador.Name = "radiotrabajador";
             this.radiotrabajador.Size = new System.Drawing.Size(80, 19);
             this.radiotrabajador.TabIndex = 11;
             this.radiotrabajador.TabStop = true;
             this.radiotrabajador.Text = "Trabajador";
-            this.radiotrabajador.UseVisualStyleBackColor = true;
+            this.radiotrabajador.UseVisualStyleBackColor = false;
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(473, 314);
             this.Controls.Add(this.radiotrabajador);
             this.Controls.Add(this.radioadministrador);
