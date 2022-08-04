@@ -45,5 +45,24 @@ namespace LaboratorioClinico
         {
 
         }
+
+        private void MenuTrabajador_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            RCliente c = new RCliente();
+            c.Show();
+            this.Hide();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            RCliente c = new RCliente();
+            c.Show();
+            this.Hide();
+        }
     }
 }

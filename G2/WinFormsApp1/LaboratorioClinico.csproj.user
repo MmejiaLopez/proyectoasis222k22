@@ -43,6 +43,9 @@
     <Compile Update="Paciente.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="RCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Recuperar.cs">
       <SubType>Form</SubType>
     </Compile>
