@@ -33,9 +33,8 @@ namespace LaboratorioClinico
 
         private void btnGenerar_Click(object sender, EventArgs e)
         {
-            PdfWriter pdfWriter = new PdfWriter("C:/Users/Mayén Ramírez/Desktop/Proyecto/proyectoasis222k22/G2/Reporte_Cliente.pdf");
-            /*
-            PdfWriter pdfWriter = new PdfWriter("Reporte_Examen.pdf");*/
+            //PdfWriter pdfWriter = new PdfWriter("C:/Users/Mayén Ramírez/Desktop/Proyecto/proyectoasis222k22/G2/Reporte_Cliente.pdf");
+            PdfWriter pdfWriter = new PdfWriter("Reporte_Examen.pdf");
             PdfDocument pdf = new PdfDocument(pdfWriter);
             // 1 pulgada = 72 pt (8 1/2 x 11) (8.5*72) (612x792)
             PageSize tamanioH = new PageSize(792, 612);
@@ -82,9 +81,8 @@ namespace LaboratorioClinico
 
             documento.Add(tabla);
             documento.Close();
-            var logo = new iText.Layout.Element.Image(ImageDataFactory.Create("C:/Users/Mayén Ramírez/Desktop/Proyecto/proyectoasis222k22/G2/WinFormsApp1/img/Examenes.png")).SetWidth(50);
-            /*
-            var logo = new iText.Layout.Element.Image(ImageDataFactory.Create("C:/Users/Kuht_saal/Desktop/Torres/proyectoasis222k22/G2/WinFormsApp1/img/Examenes.png")).SetWidth(50);*/
+            //var logo = new iText.Layout.Element.Image(ImageDataFactory.Create("C:/Users/Mayén Ramírez/Desktop/Proyecto/proyectoasis222k22/G2/WinFormsApp1/img/Examenes.png")).SetWidth(50);
+            var logo = new iText.Layout.Element.Image(ImageDataFactory.Create("C:/Users/Kuht_saal/Desktop/Torres/proyectoasis222k22/G2/WinFormsApp1/img/Examenes.png")).SetWidth(50);
             var plogo = new Paragraph("").Add(logo);
             var titulo = new Paragraph("Reporte de Examenes");
             titulo.SetTextAlignment(TextAlignment.CENTER);

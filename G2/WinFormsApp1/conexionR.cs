@@ -11,15 +11,10 @@ namespace LaboratorioClinico
     {
         public static MySqlConnection conexion()
         {
-            string servidor = "bmtue5uxsivormay0qsn-mysql.services.clever-cloud.com";
-            string bd = "bmtue5uxsivormay0qsn";
-            string usuario = "uhkrhupqvwtjgxgg";
-            string password = "CW4ol9Vsb14oGqhNL5Gr";
-            /*
             string servidor = "b3jnhmjenwsvvibvoljt-mysql.services.clever-cloud.com";
             string bd = "b3jnhmjenwsvvibvoljt";
             string usuario = "uoek6asd7jjostvb";
-            string password = "FdMipYrOneL8uzBTDoVB";*/
+            string password = "FdMipYrOneL8uzBTDoVB";
 
             string cadenaConexion = "Database=" + bd + "; Data Source=" + servidor +
                 "; User Id=" + usuario + "; Password=" + password + "";
