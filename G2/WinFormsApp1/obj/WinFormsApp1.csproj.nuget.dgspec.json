@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\josue\\Desktop\\UNIVERSIDAD\\SEMESTRE_8\\Analisis_de_Sistemas_II\\1er_parcial\\Clinica_App-G2\\Trabajo grupal (1)\\Trabajo grupal\\proyectoasis222k22\\G2\\WinFormsApp1\\WinFormsApp1.csproj": {}
+    "C:\\Users\\luist\\OneDrive\\Universidad\\8semestre\\Analisis2\\proyecto1\\proyectoasis222k22\\G2\\WinFormsApp1\\WinFormsApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\josue\\Desktop\\UNIVERSIDAD\\SEMESTRE_8\\Analisis_de_Sistemas_II\\1er_parcial\\Clinica_App-G2\\Trabajo grupal (1)\\Trabajo grupal\\proyectoasis222k22\\G2\\WinFormsApp1\\WinFormsApp1.csproj": {
+    "C:\\Users\\luist\\OneDrive\\Universidad\\8semestre\\Analisis2\\proyecto1\\proyectoasis222k22\\G2\\WinFormsApp1\\WinFormsApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josue\\Desktop\\UNIVERSIDAD\\SEMESTRE_8\\Analisis_de_Sistemas_II\\1er_parcial\\Clinica_App-G2\\Trabajo grupal (1)\\Trabajo grupal\\proyectoasis222k22\\G2\\WinFormsApp1\\WinFormsApp1.csproj",
+        "projectUniqueName": "C:\\Users\\luist\\OneDrive\\Universidad\\8semestre\\Analisis2\\proyecto1\\proyectoasis222k22\\G2\\WinFormsApp1\\WinFormsApp1.csproj",
         "projectName": "WinFormsApp1",
-        "projectPath": "C:\\Users\\josue\\Desktop\\UNIVERSIDAD\\SEMESTRE_8\\Analisis_de_Sistemas_II\\1er_parcial\\Clinica_App-G2\\Trabajo grupal (1)\\Trabajo grupal\\proyectoasis222k22\\G2\\WinFormsApp1\\WinFormsApp1.csproj",
-        "packagesPath": "C:\\Users\\josue\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josue\\Desktop\\UNIVERSIDAD\\SEMESTRE_8\\Analisis_de_Sistemas_II\\1er_parcial\\Clinica_App-G2\\Trabajo grupal (1)\\Trabajo grupal\\proyectoasis222k22\\G2\\WinFormsApp1\\obj\\",
+        "projectPath": "C:\\Users\\luist\\OneDrive\\Universidad\\8semestre\\Analisis2\\proyecto1\\proyectoasis222k22\\G2\\WinFormsApp1\\WinFormsApp1.csproj",
+        "packagesPath": "C:\\Users\\luist\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luist\\OneDrive\\Universidad\\8semestre\\Analisis2\\proyecto1\\proyectoasis222k22\\G2\\WinFormsApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\josue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\luist\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -65,6 +65,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.25, 3.1.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -73,7 +79,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.214\\RuntimeIdentifierGraph.json"
         }
       }
     }

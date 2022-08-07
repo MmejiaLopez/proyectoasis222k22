@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 using System.Windows.Forms;
+using System.Data;
 
 namespace LaboratorioClinico
 {
@@ -17,10 +18,10 @@ namespace LaboratorioClinico
             try
             {
                 MySqlConnectionStringBuilder b = new MySqlConnectionStringBuilder();
-                b.Server = "localhost";
-                b.UserID = "admin";//cambiar el usuario
-                b.Password = "admin";//cambiar contraseña
-                b.Database = "clinica";
+                b.Server = "b3jnhmjenwsvvibvoljt-mysql.services.clever-cloud.com";
+                b.UserID = "uoek6asd7jjostvb";//cambiar el usuario
+                b.Password = "FdMipYrOneL8uzBTDoVB";//cambiar contraseña
+                b.Database = "b3jnhmjenwsvvibvoljt";
                 con = new MySqlConnection(b.ToString());
             }
             catch (MySqlException e)
@@ -38,7 +39,7 @@ namespace LaboratorioClinico
                 this.con.Open();
                 cmd.ExecuteNonQuery();
                 this.con.Close();
-                
+                MessageBox.Show("Realizado con exito");
             }
             catch (MySqlException e)
             {
@@ -63,7 +64,9 @@ namespace LaboratorioClinico
                 {
                     for (int x = 0; x < columna; x++)
                     {
-                        cadena[x] = leer.GetString(x);
+
+                       cadena[x] = leer.GetString(x);
+                                             
 
                     }
 
@@ -81,5 +84,46 @@ namespace LaboratorioClinico
 
             return cadena;
         }
+
+
+        public void IDU2(String sql)//funcion para insercion, eliminacion y actualizacion en base de datos
+        {
+            try
+            {
+                MySqlCommand cmd = this.con.CreateCommand();
+                cmd.CommandText = sql;
+                this.con.Open();
+                cmd.ExecuteNonQuery();
+                this.con.Close();
+                
+            }
+            catch (MySqlException e)
+            {
+                MessageBox.Show("Error: " + e);
+            }
+
+        }
+
+        public DataTable Busqueda(string sql)
+        {
+            try
+            {
+                MySqlCommand cmd = new MySqlCommand(sql, con);        
+                MySqlDataAdapter adapatador = new MySqlDataAdapter();
+                adapatador.SelectCommand = cmd;
+                DataTable tabla = new DataTable();
+                adapatador.Fill(tabla);
+
+                return tabla;
+            }
+            catch (MySqlException e)
+            {
+                MessageBox.Show("Error: " + e);
+                return null;
+
+            }
+        }
+
+        
     }
 }

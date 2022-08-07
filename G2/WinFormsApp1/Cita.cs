@@ -159,5 +159,10 @@ namespace LaboratorioClinico
         {
 
         }
+
+        private void tabla2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
