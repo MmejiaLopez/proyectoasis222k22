@@ -67,18 +67,28 @@ cascade on delete cascade
 
 
 
-
 /*--------------------------Parte Separada-----------------*/
+create table usuario 
+(usuario varchar(50) not null primary key, contraseña varchar(50) not null, 
+tipousuario varchar(15)  not null);
+
 create table empleado 
-(id_empleado varchar(15) primary key not null, tipoUsuario varchar(15) not null,
+(id_empleado varchar(15) primary key not null, usuario varchar(15) not null,
 nombres varchar(50), apellidos varchar(50) not null,
 telefono int not null, correo varchar(25) not null,
-direccion varchar(50) not null);
+direccion varchar(50) not null,
+foreign key (usuario) references usuario(usuario) on update
+cascade on delete restrict);
 
-create table tipoUsuario 
-( empleado varchar(15) not null, tipousuario varchar(15)  not null, nombre varchar(50) not null,
-contraseña varchar(50) not null,
-foreign key (empleado) references empleado(id_empleado) on update
+create table bitacora
+(id_bitacora int auto_increment not null primary key, usuario varchar(50), 
+fecha date not null, hora_inicio time, hora_fin time,
+foreign key (usuario) references usuario(usuario) on update
 cascade on delete cascade);
 
+create table detallebitacora
+(id_detalle int auto_increment not null primary key, bitacora int, modulo varchar(25),
+accion varchar(25), hora time,
+foreign key (bitacora) references bitacora(id_bitacora) on update
+cascade on delete cascade);
 

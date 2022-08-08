@@ -56,6 +56,8 @@ namespace LaboratorioClinico
            "','" + enfermedad + "','" + recomendacion + "')";
 
             con.IDU(sql2);
+            detallebitacora d = new detallebitacora();
+            d.agregar("Paciente");
         }
 
         private void btncancelar_Click(object sender, EventArgs e)
@@ -74,6 +76,7 @@ namespace LaboratorioClinico
             txtsangre.Clear();
             radiohombre.Checked = false;
             radiomujer.Checked = false;
+            tabla.Rows.Clear();
 
         }
 
@@ -95,6 +98,8 @@ namespace LaboratorioClinico
             conexion con = new conexion();
            cliente =  con.buscar(sql, 7);
            paciente=  con.buscar(sql2, 6);
+            detallebitacora d = new detallebitacora();
+            d.busqueda("Paciente");
 
 
             tabla.Rows[n].Cells[0].Value = cliente[0];
@@ -126,6 +131,8 @@ namespace LaboratorioClinico
 
             conexion con = new conexion();
             con.IDU(sql);
+            detallebitacora d = new detallebitacora();
+            d.eliminar("Paciente");
 
             tabla.Rows.RemoveAt(tabla.CurrentRow.Index);
         }
@@ -194,6 +201,87 @@ namespace LaboratorioClinico
            "','" + enfermedad + "','" + recomendacion + "')";
 
             con.IDU(sql2);
+            detallebitacora d = new detallebitacora();
+            d.actualizar("Paciente");
+        }
+
+        private void btnagregar_MouseHover(object sender, EventArgs e)
+        {
+            btnagregar.BackColor = Color.FromArgb(255, 255, 255);
+            btnagregar.ForeColor = Color.FromArgb(49, 101, 244);
+        }
+
+        private void btnagregar_MouseLeave(object sender, EventArgs e)
+        {
+            btnagregar.BackColor = Color.FromArgb(49, 101, 244);
+            btnagregar.ForeColor = Color.FromArgb(255, 255, 255);
+        }
+
+        private void btnborrar_MouseHover(object sender, EventArgs e)
+        {
+            btnborrar.BackColor = Color.FromArgb(255, 255, 255);
+            btnborrar.ForeColor = Color.FromArgb(49, 101, 244);
+        }
+
+        private void btnborrar_MouseLeave(object sender, EventArgs e)
+        {
+            btnborrar.BackColor = Color.FromArgb(49, 101, 244);
+            btnborrar.ForeColor = Color.FromArgb(255, 255, 255);
+        }
+
+        private void btnactualizar_MouseHover(object sender, EventArgs e)
+        {
+            btnactualizar.BackColor = Color.FromArgb(255, 255, 255);
+            btnactualizar.ForeColor = Color.FromArgb(49, 101, 244);
+        }
+
+        private void btnactualizar_MouseLeave(object sender, EventArgs e)
+        {
+            btnactualizar.BackColor = Color.FromArgb(49, 101, 244);
+            btnactualizar.ForeColor = Color.FromArgb(255, 255, 255);
+        }
+
+        private void btncancelar_MouseHover(object sender, EventArgs e)
+        {
+            btncancelar.BackColor = Color.FromArgb(255, 255, 255);
+            btncancelar.ForeColor = Color.FromArgb(49, 101, 244);
+        }
+
+        private void btncancelar_MouseLeave(object sender, EventArgs e)
+        {
+            btncancelar.BackColor = Color.FromArgb(49, 101, 244);
+            btncancelar.ForeColor = Color.FromArgb(255, 255, 255);
+        }
+
+        private void btnbuscar_MouseHover(object sender, EventArgs e)
+        {
+            btnbuscar.BackColor = Color.FromArgb(255, 255, 255);
+            btnbuscar.ForeColor = Color.FromArgb(49, 101, 244);
+        }
+
+        private void btnbuscar_MouseLeave(object sender, EventArgs e)
+        {
+            btnbuscar.BackColor = Color.FromArgb(49, 101, 244);
+            btnbuscar.ForeColor = Color.FromArgb(255, 255, 255);
+        }
+
+        private void btnregresar_MouseHover(object sender, EventArgs e)
+        {
+            btnregresar.BackColor = Color.FromArgb(255, 255, 255);
+            btnregresar.ForeColor = Color.FromArgb(49, 101, 244);
+        }
+
+        private void btnregresar_MouseLeave(object sender, EventArgs e)
+        {
+            btnregresar.BackColor = Color.FromArgb(49, 101, 244);
+            btnregresar.ForeColor = Color.FromArgb(255, 255, 255);
+        }
+
+        private void btnregresar_Click(object sender, EventArgs e)
+        {
+            Menu me = new Menu();
+            me.Show();
+            this.Hide();
         }
 
         private void Paciente_Load(object sender, EventArgs e)
